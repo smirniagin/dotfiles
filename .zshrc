@@ -12,6 +12,9 @@ source <(fzf --zsh)
 alias cat=bat
 
 # Eza
-alias l="eza -l --icons --git -a"
-alias lt="eza --tree --level=2 --long --icons --git"
-alias ltree="eza --tree --level=2  --icons --git"
+#alias l="eza -l --icons --git -a"
+#alias lt="eza --tree --level=2 --long --icons --git"
+#alias ltree="eza --tree --level=2  --icons --git"
+
+alias ls="eza --tree --level=1 --icons=always --git"
+alias ll="eza --tree --level=1 --icons=always --git -a -l"
